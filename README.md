@@ -2,18 +2,13 @@
 
 ## Dependencias
 ```bash
-npm i express cors dotenv ejs
+npm i express dotenv ejs
 ```
 - **express:**
     - Descripción:
                     Express es un marco web para Node.js que simplifica el desarrollo de aplicaciones web y API. Facilita la creación de rutas, manejo de solicitudes y respuestas, middleware, y otras tareas comunes en el desarrollo web.
     - Uso común:
                     Crear servidores web y construir API RESTful en Node.js.
-- **Cors:**
-    - Descripción:
-                    CORS (Cross-Origin Resource Sharing) es un middleware que permite o restringe el acceso a recursos en una página web desde otro dominio distinto al dominio que sirve la propia página.
-    - Uso común:
-                    En aplicaciones web, permite o restringe las solicitudes HTTP desde orígenes externos. Es crucial cuando tu frontend y backend están alojados en dominios diferentes.
 - **Dotenv:**
     - Descripción:
                     Dotenv es una biblioteca que carga variables de entorno desde un archivo llamado .env en el entorno de desarrollo. Las variables de entorno pueden incluir información sensible como claves de API, configuraciones de bases de datos, etc.
